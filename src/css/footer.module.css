@@ -30,6 +30,8 @@
 }
 .copyright {
   text-transform: capitalize;
-  letter-spacing: var(--mainSpacing);
+  /* letter-spacing: var(--mainSpacing); */
+  word-spacing: var(--mainSpacing);
   line-height: 2;
+  font-size: 90%;
 }
