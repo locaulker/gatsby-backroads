@@ -1,4 +1,5 @@
-@import url("https://fonts.googleapis.com/css?family=Lato|Poppins");
+/* @import url("https://fonts.googleapis.com/css?family=Lato|Poppins"); */
+@import url("https://fonts.googleapis.com/css?family=Poppins:200,300,400&display=swap");
 
 :root {
   --primaryColor: #3fd0d4;
