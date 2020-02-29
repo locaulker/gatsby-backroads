@@ -7,7 +7,6 @@ class tours extends Component {
     return (
       <Layout>
         Hello from Tours Page !!!!!
-
       </Layout>
     )
   }
