@@ -7,7 +7,7 @@ const blog = () => {
 
   return (
     <Layout>
-      <h1>Hello from Blog Page</h1>
+      <p>Hello from Blog Page</p>
       <Link to="/">Back to HomePage</Link>
     </Layout>
   )
