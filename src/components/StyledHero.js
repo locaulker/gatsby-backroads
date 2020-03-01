@@ -22,9 +22,9 @@ export default styled(StyledHero)`
     ? 'linear-gradient(rgba(63, 208, 212, 0.7), rgba(0, 0, 0, 0.7))'
     : 'none'};
   background-position: center;
-  background-size:Cover;
-  opacity:1!important;
-  display:flex;
-  justify-content:center;
+  background-size: Cover;
+  opacity: 1 !important;
+  display: flex;     
+  justify-content: center;
   align-items: center;
 `

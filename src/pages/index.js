@@ -4,6 +4,7 @@ import Layout from "../components/Layout"
 import Banner from "../components/Banner"
 import About from "../components/Home/About"
 import Services from "../components/Home/Services"
+
 import StyledHero from '../components/StyledHero'
 import { graphql } from 'gatsby'
 
@@ -26,7 +27,7 @@ export const query = graphql`
   query {
     defaultBcg:file(relativePath:{eq:"defaultBcg.jpeg"}){
       childImageSharp {
-        fluid(quality:90, maxWidth:600){
+        fluid(quality:90, maxWidth:4160){
           ...GatsbyImageSharpFluid_withWebp
         }
       }
