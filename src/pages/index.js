@@ -1,5 +1,6 @@
 import React from "react"
-import { Link } from 'gatsby'
+// import { Link } from 'gatsby'
+import AniLink from 'gatsby-plugin-transition-link/AniLink'
 import Layout from "../components/Layout"
 import Banner from "../components/Banner"
 import About from "../components/Home/About"
@@ -15,7 +16,7 @@ export default ({ data }) => (
         title="Continue Exploring"
         info="The ancient palace and fortress of the Moorish rulers of Grenada"
       >
-        <Link to="/tours" className="btn-white">Explore Tours</Link>
+        <AniLink fade to="/tours" className="btn-white">Explore Tours</AniLink>
       </Banner>
     </StyledHero>
     <About />
