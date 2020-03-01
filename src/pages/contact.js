@@ -3,6 +3,7 @@ import Layout from "../components/Layout"
 
 import StyledHero from '../components/StyledHero'
 import { graphql } from 'gatsby'
+import Contact from '../components/Contact/Contact'
 
 const contact = ({ data }) => {
   return (
@@ -10,6 +11,7 @@ const contact = ({ data }) => {
       <StyledHero
         img={data.contactBcg.childImageSharp.fluid}
       />
+      <Contact />
     </Layout>
   )
 }
