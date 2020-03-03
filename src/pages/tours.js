@@ -4,6 +4,7 @@ import Layout from "../components/Layout"
 // Default Hero Image
 import StyledHero from '../components/StyledHero'
 import { graphql } from 'gatsby'
+import Tours from '../components/Tours/Tours'
 
 
 class tours extends Component {
@@ -13,6 +14,7 @@ class tours extends Component {
         <StyledHero
           img={this.props.data.defaultBcg.childImageSharp.fluid}
         />
+        <Tours />
       </Layout>
     )
   }
