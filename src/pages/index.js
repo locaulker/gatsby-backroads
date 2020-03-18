@@ -12,7 +12,7 @@ import FeaturedTours from "../components/Home/FeaturedTours"
 
 export default ({ data }) => (
   <Layout>
-    <StyledHero home="true" img={data.defaultBcg.childImageSharp.fluid}>
+    <StyledHero home="true">
       <Banner
         title="Continue Exploring"
         info="The ancient palace and fortress of the Moorish rulers of Grenada"
@@ -22,9 +22,7 @@ export default ({ data }) => (
     </StyledHero>
     <About />
     <Services />
-
     <FeaturedTours />
-
   </Layout>
 )
 

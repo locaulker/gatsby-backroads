@@ -1,10 +1,8 @@
 import React, { Component } from 'react'
 import Layout from "../components/Layout"
-
-// Default Hero Image
 import StyledHero from '../components/StyledHero'
-import { graphql } from 'gatsby'
 import Tours from '../components/Tours/Tours'
+import { graphql } from 'gatsby'
 
 
 class tours extends Component {
