@@ -17,7 +17,7 @@ export const query = graphql`
       price
       country
       days
-      start(formatString: "ddd: MMM. Do, YYYY")
+      start(formatString: "ddd: MMM. DD, YYYY")
       description {
         description
       }

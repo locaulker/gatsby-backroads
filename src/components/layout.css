@@ -84,3 +84,8 @@ main {
   display: flex;
   flex-direction: column;
 }
+
+/* RICH-TEXT FORMAT */
+.rich {
+  background: var(--primaryColor);
+}
