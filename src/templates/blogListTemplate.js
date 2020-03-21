@@ -5,6 +5,7 @@ import AniLink from 'gatsby-plugin-transition-link/AniLink'
 import styles from '../css/blog.module.css'
 import BlogCard from '../components/Blog/BlogCard'
 import Title from '../components/Title'
+import SEO from '../components/SEO'
 
 
 export const query = graphql`
@@ -46,6 +47,7 @@ const blogListTemplate = (props) => {
 
   return (
     <Layout>
+      <SEO title="Blogs" />
       <section className={styles.blog}>
 
         <Title title="Latest" subtitle="Posts" />

@@ -4,15 +4,16 @@ require("dotenv").config({
 
 module.exports = {
   siteMetadata: {
-    title: "BackRoads",
-    description: "Explore Awesome WorldWide tours and discover what maes each one unique. Forget your daily routine and say 'Yes' to adventure.",
-    author: "@locaulker",
-    data: {
-      name: 'John',
-      age: 24
-    }
+    title: "Gatsby BackRoads",
+    description: "Explore Awesome WorldWide tours and discover what makes each one unique. Forget your daily routine and say 'Yes' to Adventure.",
+    author: "Lawrence Caulker",
+    twitterUsername: "@locaulker",
+    image: '/defaultBcg.jpeg',
+    siteUrl: 'https://gatsbybackroads.netlify.com',
+
   },
   plugins: [
+    `gatsby-plugin-react-helmet`,
     {
       resolve: `gatsby-source-filesystem`,
       options: {
